@@ -4,4 +4,4 @@ title: "Maciej Bargiel"
 
 # Maciej Bargiel
 
-<p class="lede">Writing about the things I keep coming back to.</p>
+<p class="lede">Engineering manager in the UK. I write about managing people, the ways my own reasoning goes wrong, and occasionally bread.</p>
