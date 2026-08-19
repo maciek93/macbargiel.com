@@ -1,6 +1,6 @@
 baseURL = "https://macbargiel.com/"
 locale = "en-us"
-title = "Mac"
+title = "I’m Mac"
 enableRobotsTXT = true
 
 [params]
