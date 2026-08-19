@@ -1,7 +1,7 @@
 ---
-title: "Maciej Bargiel"
+title: "Mac Bargiel"
 ---
 
-# Maciej Bargiel
+# Mac Bargiel
 
 <p class="lede">Engineering manager in the UK. I write about managing people, the ways my own reasoning goes wrong, and occasionally bread.</p>

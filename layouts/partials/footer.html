@@ -1,6 +1,7 @@
 <footer class="site-foot">
-  <div class="wrap">
+  <div class="wrap foot-inner">
+    <span class="foot-mark">{{ partial "mark.html" (dict "size" 22) }}</span>
     <span>© {{ now.Year }} {{ .Site.Params.author }}</span>
-    <span><a href="{{ "index.xml" | relURL }}">RSS</a></span>
+    <span class="foot-links"><a href="{{ "index.xml" | relURL }}">RSS</a></span>
   </div>
 </footer>

@@ -1,6 +1,9 @@
 <header class="site-head">
   <div class="wrap head-inner">
-    <a class="brand" href="{{ "/" | relURL }}">{{ .Site.Title }}</a>
+    <a class="brand" href="{{ "/" | relURL }}">
+      {{ partial "mark.html" (dict "size" 30) }}
+      <span class="brand-name">{{ .Site.Title }}</span>
+    </a>
     <nav>
       {{ range .Site.Menus.main }}
       <a href="{{ .URL | relURL }}"{{ if $.IsMenuCurrent "main" . }} class="active"{{ end }}>{{ .Name }}</a>

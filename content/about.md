@@ -2,7 +2,7 @@
 title: "About"
 ---
 
-I'm Maciej. I manage engineers at a large tech company, and I live in the UK.
+I'm Mac. I manage engineers at a large tech company, and I live in the UK.
 
 This is where I put things that got too long to be a message to someone. Mostly that means management, which is what I spend my days on, and the various ways my own reasoning turns out to be wrong, which is a hobby that keeps finding new material.
 

@@ -10,15 +10,18 @@
   <h2 class="section-title">Writing</h2>
   {{ $posts := where .Site.RegularPages "Section" "posts" }}
   {{ range $posts.GroupByDate "2006" }}
-  <h3 class="year">{{ .Key }}</h3>
-  <ul class="post-list">
-    {{ range .Pages }}
-    <li>
-      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2" }}</time>
-    </li>
-    {{ end }}
-  </ul>
+  <div class="year-group">
+    <div class="year-rail"><span class="year">{{ .Key }}</span></div>
+    <ul class="post-list">
+      {{ range .Pages }}
+      <li>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{ with index .Params.tags 0 }}<span class="post-tag">{{ . }}</span>{{ end }}
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2 Jan" }}</time>
+      </li>
+      {{ end }}
+    </ul>
+  </div>
   {{ end }}
 </section>
 {{ end }}
