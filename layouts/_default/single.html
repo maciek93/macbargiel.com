@@ -1,0 +1,18 @@
+{{ define "main" }}
+<article class="post">
+  <header class="post-head">
+    <h1>{{ .Title }}</h1>
+    {{ if and .Date (eq .Section "posts") }}
+    <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+    {{ end }}
+  </header>
+  <div class="prose">
+    {{ .Content }}
+  </div>
+  {{ with .Params.tags }}
+  <div class="tags">
+    {{ range . }}<span class="tag">{{ . }}</span>{{ end }}
+  </div>
+  {{ end }}
+</article>
+{{ end }}
