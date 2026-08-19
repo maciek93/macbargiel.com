@@ -1,11 +1,11 @@
 baseURL = "https://macbargiel.com/"
 locale = "en-us"
-title = "Mac Bargiel"
+title = "Mac"
 enableRobotsTXT = true
 
 [params]
-  description = "Notes and writing by Mac Bargiel."
-  author = "Mac Bargiel"
+  description = "Notes and writing by Mac."
+  author = "Mac"
 
 [markup.goldmark.renderer]
   unsafe = true
